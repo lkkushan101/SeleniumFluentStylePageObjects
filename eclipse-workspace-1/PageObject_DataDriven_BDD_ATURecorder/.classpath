@@ -34,6 +34,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Users/kam/eclipse-workspace-1/PageObject_DataDriven_BDD_AQ_ScreenShooter/jars/MonteScreenRecorder.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kam/eclipse-workspace-1/PageObject_DataDriven_BDD_ATURecorder/jars/ATUTestRecorder_2.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
