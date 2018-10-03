@@ -1,0 +1,23 @@
+package SelionPkg;
+import org.testng.annotations.Test;
+
+import com.paypal.selion.annotations.WebTest;
+import com.paypal.selion.platform.grid.Grid;
+import com.paypal.selion.platform.html.TextField;
+import com.paypal.selion.platform.utilities.WebDriverWaitUtils;
+public class SelionBasic {
+	 @Test
+	  @WebTest
+	  public void DemoTest1() throws InterruptedException {
+	    //Launch the google URL in the browser
+	    Grid.driver().get("http://www.google.com/");
+	    
+	    TextField field = new TextField("id=lst-ib");
+
+	    //Thread will wait until TextFiled element present in the browser
+	    WebDriverWaitUtils.waitUntilElementIsPresent(field.getLocator());
+
+	    //Search for the string 'SeLion' in the text box
+	    field.type("Selenium\n");
+	 }
+}

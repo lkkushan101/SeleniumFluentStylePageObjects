@@ -1,0 +1,42 @@
+{
+  "reportSummary": {
+    "testMethodsSummary": {
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0
+    },
+    "configurationMethodsSummary": {
+      "passed": 0,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "testMethods": [
+    {
+      "suite": "Selion Test",
+      "test": "SampleTest",
+      "packageInfo": "SelionPkg",
+      "className": "SelionBasic",
+      "methodName": "DemoTest1",
+      "status": "Passed",
+      "startTime": "2018-10-03T05:48:13.829+05:30",
+      "endTime": "2018-10-03T05:48:28.722+05:30"
+    }
+  ],
+  "configurationMethods": [],
+  "configSummary": {
+    "currentDate": "2018-10-03T05:48:13.755+05:30"
+  },
+  "localConfigSummary": [
+    {
+      "currentDate": "2018-10-03T05:48:13.782+05:30",
+      "suite": "Selion Test",
+      "test": "SampleTest"
+    }
+  ],
+  "reporterMetadata": {
+    "currentDate": {
+      "displayLabel": "Current Date"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" data-provider-thread-count="1" name="Failed suite [Selion Test]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="runLocally" value="true"/>
+  <test thread-count="1" parallel="classes" name="SampleTest(failed)" verbose="0">
+    <classes>
+      <class name="SelionPkg.SelionBasic">
+        <methods>
+          <include name="DemoTest1"/>
+        </methods>
+      </class> <!-- SelionPkg.SelionBasic -->
+    </classes>
+  </test> <!-- SampleTest(failed) -->
+</suite> <!-- Failed suite [Selion Test] -->
