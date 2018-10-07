@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Runner.JUnitRunner" skipped="0" tests="1" time="0.0" timestamp="2018-10-07 05:52:59"><testcase classname="Runner.JUnitRunner" name="Initialisation"><error message="Superclass has no null constructors but no arguments were given" type="java.lang.IllegalArgumentException">Superclass has no null constructors but no arguments were given</error><system-err>Superclass has no null constructors but no arguments were given&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)&#13;
+</system-err></testcase></testsuite>
